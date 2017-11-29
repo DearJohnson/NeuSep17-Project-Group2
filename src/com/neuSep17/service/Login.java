@@ -46,8 +46,7 @@ public class Login {
             
            System.out.println("Choose:Login（A）or Register（B）");   
             String opt = scanner.next();  
-            if("A".equalsIgnoreCase(opt)){  
-               // show();  
+            if("A".equalsIgnoreCase(opt)){   
                 login();  
             }else if("B".equalsIgnoreCase(opt)){  
                 register();  
